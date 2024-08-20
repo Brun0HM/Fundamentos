@@ -78,6 +78,8 @@ namespace Fundamentos
                     Console.WriteLine("O perssonagem " + p.Nome + " Venceu!");
                     vencedor = true;
                     p.Nivel += 1;
+                    Console.WriteLine(p.Nome + " Subiu para o nível " + p.Nivel);
+
                 }
 
                 if (p.Vida <= 0)
@@ -85,6 +87,7 @@ namespace Fundamentos
                     Console.WriteLine("O perssonagem" + this.Nome + " Venceu!");
                     vencedor = true;
                     this.Nivel += 1;
+                    Console.WriteLine(this.Nome + " Subiu para o nível " + this.Nivel);
                 }
             }
         }
